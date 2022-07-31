@@ -20,9 +20,12 @@ export const Container = styled.div`
         font-family:var(--font-secundaria-W400);
         font-size:0.93rem;
         padding-left:0.5rem;
+        background-color:var(--color_background_app);
+        border: 1px solid var(--body-color);
     }
        
-    &:focus{
+    &.focus{
+        outline: 1px solid var(--yellow-destaque);
         background-color:var(--yellow-destaque);
         border: 1px solid var(--yellow-destaque);
         box-shadow:0px 0px 0px 2px #FFDE88;
