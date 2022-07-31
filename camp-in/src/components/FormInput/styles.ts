@@ -6,6 +6,7 @@ export const Container = styled.div`
     flex-direction:column;
     color:var(--body-color);
     line-height:1.6rem;
+    
 
     label{
         font-family:var(--font-principal-W500);
@@ -14,7 +15,7 @@ export const Container = styled.div`
         
        }
     input{
-        width:22.33rem;
+        width:25.33rem;
         height:2.93rem;
         border-radius:0.26rem;
         font-family:var(--font-secundaria-W400);
@@ -24,9 +25,9 @@ export const Container = styled.div`
         border: 1px solid var(--body-color);
     }
        
-    &.focus{
-        outline: 1px solid var(--yellow-destaque);
-        background-color:var(--yellow-destaque);
+    input:focus{
+        outline:none;
+      
         border: 1px solid var(--yellow-destaque);
         box-shadow:0px 0px 0px 2px #FFDE88;
     }
