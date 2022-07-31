@@ -1,4 +1,7 @@
 import React from 'react';
+import { LeftContent } from './components/LeftContent';
+import { RightContent } from './components/RightContent';
+
 
 
 import { GlobalStyle } from './styles/global';
@@ -6,10 +9,13 @@ import { GlobalStyle } from './styles/global';
 
 export function App() {
   return (
-    <> 
-      <GlobalStyle/>
-      <h1> Oi</h1>
-    </>
+    <div className="container">
+       <GlobalStyle/>
+      <LeftContent/>
+      <RightContent/>
+    </div>
+     
+   
   );
 }
 
