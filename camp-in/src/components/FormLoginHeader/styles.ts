@@ -15,6 +15,7 @@ export const Container = styled.header`
        font-size:1.6rem;
        line-height:2.4rem;
    }
+   
    p{
        font-family:var(--font-secundaria-W500);
        color:var(--body-color);

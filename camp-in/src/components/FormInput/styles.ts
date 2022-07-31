@@ -15,14 +15,16 @@ export const Container = styled.div`
         
        }
     input{
-        width:25.33rem;
+        all: unset;
+        width:22.33rem;
         height:2.93rem;
         border-radius:0.26rem;
         font-family:var(--font-secundaria-W400);
         font-size:0.93rem;
         padding-left:0.5rem;
-        background-color:var(--color_background_app);
+        background-color:var(--shape-color);
         border: 1px solid var(--body-color);
+        box-sizing: border-box;
     }
        
     input:focus{
