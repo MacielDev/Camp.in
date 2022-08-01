@@ -7,7 +7,7 @@ export function FormLoginHeader(){
                 <img src={Log_inImg} alt="Logo"/>
                 <h1>Faça Seu Login</h1> 
             </div>
-            <p>Entre com suas informações de cadastro.</p>
+            <h3>Entre com suas informações de cadastro.</h3>
         </Container>
     );
 }

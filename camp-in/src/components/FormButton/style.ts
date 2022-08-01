@@ -4,13 +4,17 @@ export const Container = styled.div`
     text-align: center;
     width:22.33rem;
     button{ 
-        width: 100%;
-        height: 100%;
         background-color:var(--yellow-destaque);
-        color:var(--shape-color);
-        padding:0.8rem 1.6rem;
-        border-radius:0.27rem;
         border:none;
+        border-radius:0.27rem;
+        color:var(--shape-color);
+        font-family:var(--font-principal-W600);
+        font-size:1.2rem;
+        height: 100%;
+        line-height:1.8rem;
         margin-top: 1rem;
+        padding:0.8rem 1.6rem;
+        text-transform:uppercase;
+        width: 100%;
     }
 `;

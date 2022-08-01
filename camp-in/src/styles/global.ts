@@ -16,6 +16,7 @@ export const GlobalStyle = createGlobalStyle `
 
         --font-principal-W600:'Poppins', sans-serif;
         --font-principal-W500:'Poppins', sans-serif;
+        --font-principal-W300:'Poppins', sans-serif;
 
         --font-secundaria-W500:'Roboto', sans-serif;
         --font-secundaria-W400:'Roboto', sans-serif;

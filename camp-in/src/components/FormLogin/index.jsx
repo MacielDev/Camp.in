@@ -2,6 +2,7 @@ import { DoubleLink } from "../DoubleLink";
 import { FormButton } from "../FormButton";
 import { FormInput } from "../FormInput";
 import { FormLoginHeader } from "../FormLoginHeader";
+import { SingleLink } from "../SingleLink";
 import { Container } from "./styles";
 
 export function FormLogin(){
@@ -12,6 +13,7 @@ export function FormLogin(){
             <FormInput label ="Senha" placeholder="Digite sua senha"/>
             <DoubleLink/>
             <FormButton buttonName="Entrar"></FormButton>
+            <SingleLink/>
         </Container>
     );
 }
