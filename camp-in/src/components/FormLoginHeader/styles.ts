@@ -16,6 +16,7 @@ export const Container = styled.div`
     font-weight:600;
     font-size:1.6rem;
     line-height:2.4rem;
+    margin-left: 0.3rem;
    }
 
    h3{

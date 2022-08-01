@@ -7,9 +7,12 @@ export const Container = styled.div`
         font-family:var(--font-principal-W500);
         font-size: 0.93rem;
         line-height:1.4rem;
-        color:var(--yellow-destaque);
+        color:var(--body-color);
         text-decoration:none;
         font-weight: 300;
+        &:hover{
+            color:var(--yellow-destaque);
+        }
         strong{
             font-family:var(--font-principal-W600);
             font-weight: 600;

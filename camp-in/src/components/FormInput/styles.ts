@@ -29,10 +29,11 @@ export const Container = styled.div`
         width:22.33rem;
     }
        
-    input:focus{
+    &:focus{
         border: 1px solid var(--yellow-destaque);
         box-shadow:0px 0px 0px 2px #FFDE88;
         outline:none;
     }
+
     
 `;
