@@ -1,5 +1,5 @@
 <h1>Camp-in</h1>
-<img src="./img/camp-in.png"/>
+<img src="camp-in/src/assets/camp-in.png"/>
 <h2>Objetivos<h2>
   <ul>
     <li>Desenvolver um projeto utilizando ReactJs</li>
