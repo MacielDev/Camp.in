@@ -1,4 +1,3 @@
-# Camp.in
 <h1>Camp-in</h1>
 <img src="./img/camp-in.png"/>
 <h2>Objetivos<h2>
