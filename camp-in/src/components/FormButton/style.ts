@@ -16,5 +16,11 @@ export const Container = styled.div`
         padding:0.8rem 1.6rem;
         text-transform:uppercase;
         width: 100%;
+
+        transition:filter 0.2s;
+
+        &:hover{
+            filter: brightness(0.9);
+        }
     }
 `;
